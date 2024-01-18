@@ -1,6 +1,6 @@
 version: '3'
 services:
-  bun:
+  app:
     build: .
     container_name: app
     ports:
@@ -8,4 +8,4 @@ services:
     volumes:
         - ./:/work
     tty: true
-    command: bun run dev
+    command: bun --bun run dev
