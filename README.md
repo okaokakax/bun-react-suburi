@@ -19,3 +19,11 @@ bun install
 
 までやって、Dockerfile 作成して、build して up したら立ち上がった
 build もできた
+
+```
+bun run build
+```
+
+S3 において Cloudfront でページも表示できた
+https://web3coder.medium.com/getting-started-with-bun-and-react-db493e689454
+https://bun.sh/guides/ecosystem/vite

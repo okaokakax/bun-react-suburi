@@ -6,4 +6,4 @@ services:
       - '5173:5173'
     volumes:
       - .:/work
-    command: bun dev --host
+    command: bun run dev --host
