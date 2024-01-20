@@ -1,11 +1,9 @@
-version: '3'
+version: '3.8'
 services:
-  app:
+ app:
     build: .
-    container_name: app
     ports:
-        - 3000:3000
+      - '5173:5173'
     volumes:
-        - ./:/work
-    tty: true
-    command: bun --bun run dev
+      - .:/app
+    command: bun dev --host

@@ -1,4 +1,4 @@
-FROM oven/bun:alpine AS base
+FROM oven/bun:alpine
 
 WORKDIR /work
 
@@ -9,4 +9,4 @@ RUN bun install
 
 COPY . .
 
-EXPOSE 3000
+EXPOSE 5173
