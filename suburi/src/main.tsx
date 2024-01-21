@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { RouterProvider } from 'react-router-dom';
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import router from './router.tsx';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
@@ -8,3 +9,5 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
         <RouterProvider router={router} />
     </React.StrictMode>
 );
+
+serviceWorkerRegistration.register();
