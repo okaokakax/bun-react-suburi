@@ -1,6 +1,6 @@
 {
-    "short_name": "Bun+React+Vite",
-    "name": "Bun + React + Vite 試作",
+    "short_name": "Bun+Vite+React",
+    "name": "Bun + Vite + React 試作",
     "icons": [
         {
             "src": "vite.svg",
