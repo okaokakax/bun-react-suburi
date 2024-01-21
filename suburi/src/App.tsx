@@ -1,7 +1,5 @@
-import AppLayout from "./AppLayout";
+import AppLayout from './AppLayout';
 
-const App = () => (
-    <AppLayout />
-);
+const App = () => <AppLayout />;
 
 export default App;
