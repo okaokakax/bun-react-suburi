@@ -7,7 +7,7 @@ function Header() {
         <AppBar position="static">
             <Toolbar>
                 <Typography variant="h5">
-                    <HeaderLink to="/">Bun + Vite + React</HeaderLink>
+                    <HeaderLink to="/">Bun + Vite + React試作</HeaderLink>
                 </Typography>
                 <Button sx={{ ml: 2 }}>
                     <HeaderLink to="/about">About</HeaderLink>
