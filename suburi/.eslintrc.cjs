@@ -23,4 +23,13 @@ module.exports = {
             version: 'detect',
         },
     },
+    overrides: [
+        {
+            files: ['**/components/ui/*.tsx'],
+            rules: {
+                'react/prop-types': [2, { ignore: ['className'] }],
+                'react-refresh/only-export-components': 'off',
+            },
+        },
+    ],
 };
