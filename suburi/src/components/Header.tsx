@@ -16,6 +16,9 @@ function Header() {
                     <HeaderLink to="https://www.google.com">Google</HeaderLink>
                 </Button>
                 <Button sx={{ ml: 2 }}>
+                    <HeaderLink to="/dialog">Dialog</HeaderLink>
+                </Button>
+                <Button sx={{ ml: 2 }}>
                     <HeaderLink to="https://d9nq8b6kmpzt6.cloudfront.net/">
                         Svelte素振り
                     </HeaderLink>
