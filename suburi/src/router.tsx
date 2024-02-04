@@ -4,6 +4,7 @@ import Home from './routes/Home';
 import ErrorPage from './routes/ErrorPage';
 import AppLayout from './AppLayout';
 import App from './App';
+import Geolocation from './routes/Geolocation';
 
 export const router = createBrowserRouter([
     {
@@ -22,6 +23,10 @@ export const router = createBrowserRouter([
             {
                 path: 'about',
                 element: <AboutPage />,
+            },
+            {
+                path: 'geolocation',
+                element: <Geolocation />,
             },
         ],
     },
