@@ -4,7 +4,6 @@ import Home from './routes/Home';
 import ErrorPage from './routes/ErrorPage';
 import AppLayout from './AppLayout';
 import App from './App';
-import DialogTestPage from './routes/DialogTestPage';
 
 export const router = createBrowserRouter([
     {
@@ -23,10 +22,6 @@ export const router = createBrowserRouter([
             {
                 path: 'about',
                 element: <AboutPage />,
-            },
-            {
-                path: 'dialog',
-                element: <DialogTestPage />,
             },
         ],
     },
